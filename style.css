@@ -1,0 +1,765 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.border{
+    position: absolute;
+    left: 180px;
+    height: 1300px;
+    width:790px;
+    border: 2px solid black;
+    border-color: #f5f5f5;
+    box-shadow: #f5f5f5;
+
+}
+
+img{
+    
+    position: absolute;
+    top:17px;
+    left: 26px;
+width: 150px;
+height: 100px;
+}
+
+
+
+.inform1{
+    
+    position: absolute;
+    right: 26px;
+    top: 25px;
+    font-family: sans-serif;
+    font-size: 12px;
+    
+}
+.inform2{
+    
+    position: absolute;
+    right: 26px;
+    top: 46px;
+    font-size: 10px;
+}
+.inform3{
+    
+    position: absolute;
+    right: 26px;
+    top: 63px;
+    font-size: 10px;
+}
+.inform4{
+    
+    position: absolute;
+    right: 26px;
+    top: 80px;
+    font-size: 10px;
+}
+.inform5{
+    
+    position: absolute;
+    right: 26px;
+    top: 98px;
+    font-size: 10px;
+}
+.inform6{
+    
+    position: absolute;
+    right: 26px;
+    top: 116px;
+    font-size: 10px;
+}
+.inform7{
+    
+    position: absolute;
+    right: 26px;
+    top:134px; 
+    font-size: 10px;
+
+}
+
+/* fist table */
+
+
+#tabel{
+    position: absolute;
+    top: 163px;
+    left: 21px;
+    height: 750px;
+    width: 743px;
+    border: 2px solid black;
+    display: flex;
+    
+    
+}
+#tabel1{
+    
+    border-bottom: 1px solid black;
+    border-right: 1px solid black ;
+    height: 30px;
+    width:340px;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+
+    
+}
+
+#tabel2{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black ;
+    height: 30px;
+    width:40px;
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    font-weight: 750;
+    
+    
+
+}
+#tabel3{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black ;
+    height: 30px;
+    width:70px;
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 750;
+    
+
+}
+
+#tabel4{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black ;
+    height: 30px;
+    width:100px;
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 750;
+    
+
+}
+#tabel5{
+    border-bottom: 1px solid black;
+    /* border-right: 1px solid black ; */
+    height: 30px;
+    width:190.5px;
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+
+/* second tabel */
+
+
+#tabeln{
+    position: absolute;
+    top: 195px;
+    left: 21px;
+    height: 45px;
+    width: 840px;
+   
+    display: flex;
+    font-size: 13px;
+    
+}
+#tabel6{
+    border-bottom: 2px solid black;
+    border-right: 1px solid black ;
+    height: 40px;
+    width:341.5px;
+    display: flex;
+
+  align-items: center;
+  justify-content: center;
+  
+
+
+}
+#tabel7{
+    border-bottom: 2px solid black;
+    border-right: 1px solid black ;
+    height: 40px;
+    width:39px;
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+
+}
+#tabel8{
+    height:40px ;
+    width: 70px;
+    border-bottom: 2px solid black;
+    border-right:1px solid black ;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+#tabel9{
+    height: 40px;
+    width: 100px;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tabel10{
+    height: 40px;
+    width: 192px;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* empty */
+
+#empty{
+    height: 7px;
+    width: 744px;
+    border-bottom: 2px solid black;
+    position: absolute;
+    top: 238px;
+    left: 22px;
+}
+
+#head{
+    height: 20px;
+    width: 300.5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    position: absolute;
+    top: 247px;
+    left: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+#lists{
+height: 250px;
+width: 300.5px;
+border-bottom: 2px solid black;
+border-right: 1px solid black;
+position: absolute;
+top: 248px;
+left: 22px;
+display: block;
+}
+
+.li1{
+position: relative;
+top: 23px;
+left: 10px;
+font-size: 15px;
+
+
+}
+.li2{
+    position: relative;
+    left: 110px;
+}
+
+
+#lists2{
+    position: absolute;
+    top: 23px;
+    font-size: 15px;
+    left: 5px;
+}
+
+#head2{
+    height: 20px;
+    width: 444px;
+    border-bottom: 1px solid black;
+    /* border-right: 1px solid black; */
+    position: absolute;
+    top: 247px;
+    left: 322px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    
+}
+#empty2{
+    height: 70px;
+    width: 444px;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 267px;
+    left: 322.5px;
+}
+
+#lists3{
+    height: 161px;
+    width: 444px;
+    border-bottom: 2px solid black;
+    position: absolute;
+    top: 337px;
+    left: 322.5px;
+}
+#lists4{
+    height: 161px;
+    width: 444px;
+    /* border-bottom: 1px solid black; */
+    position: absolute;
+    top: 318px;
+    left: 322.5px;
+}
+
+.li3{
+    position: relative;
+    left: 10px;
+    top: 5px;
+    font-size: 15px;
+}
+.li4{
+    position: relative;
+    left: 200px;
+    top: 5px;
+}
+
+#tabeln1{
+  
+border-top: 2px solid black;
+
+position: absolute;
+left: 21px;
+top: 499px;
+display: flex ;
+color: white;
+}
+    
+#tabel11{
+height: 75px;
+width: 100px;
+border-bottom: 2px solid black;
+border-right:1.5px solid black ;
+border-left: 2px solid black  ;
+background-color:#6c6d6f ;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 14px;
+}
+#tabel12{
+    height: 75px;
+    width: 198.1px;
+    border-bottom: 2px solid black;
+    border-right:1.5px solid black ;
+    background-color:#6c6d6f ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    }
+    
+ #tabel13{
+    height: 75px;
+    width: 34px;
+     border-bottom: 2px solid black;
+  border-right:1.5px solid black ;
+     background-color:#6c6d6f ;
+     display: flex;
+     align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      }
+  #tabel14{
+     height: 75px;
+     width: 45px;
+     border-bottom: 2px solid black;
+      border-right:1.5px solid black ;
+     background-color:#6c6d6f ;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    font-size: 14px;
+            }
+    #tabel15{
+          height: 75px;
+                width: 95px;
+                border-bottom: 2px solid black;
+                border-right:1.5px solid black ;
+                background-color:#6c6d6f ;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 14px;
+                }
+                #tabel16{
+                    height: 75px;
+                    width: 55px;
+                    border-bottom: 2px solid black;
+                    border-right:1.5px solid black ;
+                    background-color:#6c6d6f ;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 14px;
+                    }
+                    #tabel17{
+                        height: 75px;
+                        width: 100px;
+                        border-bottom: 2px solid black;
+                        border-right:1.5px solid black ;
+                        background-color:#6c6d6f ;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 14px;
+                        }
+                        #tabel18{
+                            height: 75px;
+                            width: 90px;
+                            border-bottom: 2px solid black;
+                            border-right:1.5px solid black ;
+                            background-color:#6c6d6f ;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 14px;
+                            }
+                            #tabel19{
+                                height: 75px;
+                                width: 18px;
+                                border-bottom: 2px solid black;
+                                border-right:1.5px solid black ;
+                                background-color:#6c6d6f ;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                font-size: 14px;
+                                }
+    #tabeln2{
+        height: 335px;
+        width: 743px;
+      
+        position: absolute;
+        left: 23px;
+        top: 578px;
+        display: flex;
+        text-align: center;
+       
+    }  
+    #tabel20{
+        height: 337px;
+        width: 100px;
+        border-right:1.5px solid black ;
+        font-size: 14px;
+    }         
+    #tabel21{
+        height: 337px;
+    width: 198.1px;
+    border-right:1.5px solid black ;
+    font-size: 14px;
+    }
+    #tabel22{
+        height: 337px;
+        width: 34px;
+      border-right:1.5px solid black ;
+          font-size: 14px;
+         
+
+    }
+    #tabel23{
+        height: 337px;
+     width: 45px;
+      border-right:1.5px solid black ;
+    font-size: 14px;
+    
+    }
+    #tabel24{
+        height: 337px;
+                width: 95px;
+                border-right:1.5px solid black ;
+                font-size: 14px;
+                
+    }
+    #tabel25{
+        height: 337px;
+                    width: 55px;
+                    border-right:1.5px solid black ;
+                    font-size: 14px;
+                   
+    }
+#tabel26{
+    height: 337px;
+    width :50px;
+    border-right:1.5px solid black ;
+    font-size: 14px;
+   ;
+}
+
+#tabel27{
+    height: 337px;
+    width :49px;
+    border-right:1.5px solid black ;
+    font-size: 14px;
+   
+}
+#tabel28{
+    height: 337px;
+    width :90px;
+    border-right:1.5px solid black ;
+    font-size: 14px;
+    background-color:#dcdddf ;
+}
+#tabel29{
+    height: 337px;
+                                width: 18px;
+                                font-size: 14px;
+}
+
+/* button */
+
+#Button{
+    height: 25px;
+    width: 744.5px;
+    border-bottom: 1.5px solid black;
+    border-right: 1.45px solid black;
+    border-left: 1.5px solid black;
+    position: absolute;
+    top:918px ;
+    left: 203px;
+    display: flex;
+}
+
+#border2{
+    height: 300px;
+    width: 745px;
+    border: 2px solid black;
+    position: absolute;
+    top: 953px;
+left: 203px;
+display: flex;
+}
+#tabel30{
+    height: 30px;
+    width: 140px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+#tabel31{
+    height: 30px;
+    width: 140px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+
+   
+}
+#tabel32{
+
+    height: 30px;
+    width: 260px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tabel33{
+    height: 180px;
+    width: 140px;
+    border-left: 2px solid black;
+    border-bottom:1px solid black ;
+    border-right:1px solid black;
+    font-size: 14px;
+   
+   
+
+}
+.p{
+    margin: 8px;
+    margin-left: 3px;
+    
+}
+#num{
+    height: 180px;
+    width: 60px;
+    border-bottom:1px solid black ;
+    font-size: 14px;
+   
+}
+#ta{
+    height: 30px;
+    width: 140px;
+    border-bottom: 1.5px solid black;
+    border-left:2px solid black;
+    border-right:1.5px solid black;
+    position: relative;
+    top:29px;
+    right: 2px;
+    display: flex;
+    align-items: center;
+}
+#ta2{
+    height: 30px;
+    width: 57px;
+    border-bottom: 1.5px solid black;
+    position: relative;
+    top: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tab{
+    height: 88px;
+    width: 140px;
+    border-right: 1.5px solid black;
+    border-left: 2px solid black ;
+    position: relative;
+    top: 24px;
+    right: 2px;
+}
+.k{
+    margin: 5px;
+    padding-top: 8px;
+}
+#ta3{
+    position: relative;
+    top: 24px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+#tabelen4{
+    height: 30px;
+    width: 545px;
+    position: absolute;
+    top: 985px;
+left: 203px;
+display: flex;
+}
+#tabel34{
+    height: 30px;
+    width: 143px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+#tabel35{
+    height: 30px;
+    width: 141px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+#tabel36{
+    height: 30px;
+    width: 118.5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#tabel37{
+    height: 30px;
+    width: 60px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tabel38{
+    height: 30px;
+    width: 81px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 12px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+#tabeln5{
+    height: 80px;
+    width: 544px;
+    position: absolute;
+    top: 1015px;
+left: 203px;
+display: flex;
+border-right: 1px solid black;
+border-bottom: 1.5px solid black;
+}
+
+#tabel39{
+
+    width: 283px;
+    border-right: 1px solid black;
+    
+    
+}
+#tabel40{
+    width:118px ;
+    border-right: 1px solid black;
+}
+#tabel41{
+    width: 59px;
+    border-right: 1px solid black;
+    
+}
+#tabel42{
+    width: 80px;
+    
+}
+#tabel43{
+    height: 80px;
+    width: 544px;
+    border-right: 1px solid black;
+    border-bottom: 1.5px solid black;
+    position: absolute;
+    top: 1095px;
+left: 203px;
+display: flex;
+
+
+}
+span{
+    width: 543px;
+    height: 80px;
+    border-right: 1px solid black;
+    position: absolute;
+    top: 1176px;
+    left: 204px;
+}
+#lastp{
+    height: 50px;
+    width: 746px;
+    position: absolute;
+    top:1260px ;
+    left:203px;
+    display: flex;
+    font-size: 11px;
+    justify-content: space-between;
+}
